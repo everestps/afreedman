@@ -1,0 +1,12 @@
+*{
+    font-family:Raleway, Voltaire, Garamond, Times, Sans;
+}
+    body {
+        background-color:#ffffff;
+    }
+    li {
+        display:inline;
+    }
+        .titleofwebsite{
+            font-family:Voltaire, ;
+        }
