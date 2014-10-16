@@ -1,12 +1,25 @@
 *{
-    font-family:Raleway, Voltaire, Garamond, Times, Sans;
+    font-family:Abel, Raleway, Voltaire, Garamond, Times, Sans;
 }
     body {
         background-color:#ffffff;
+        background-image: url("http://www.wallpaper4me.com/images/wallpapers/c_programming_w1.jpeg");
+        background-style: cover;
+        
     }
-    li {
-        display:inline;
-    }
-        .titleofwebsite{
-            font-family:Voltaire, ;
+        div {
+            background-color: rgb(38, 96, 112);
+            background-color: rgba(34, 96, 112, 0.8);
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+            li {
+                display:inline;
+            }
+            .titleofwebsite{
+                font-family:Abel;
+                color: white;
+                margin-left: 15px;
+            
         }
