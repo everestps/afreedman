@@ -1,22 +1,45 @@
 body {
-  background-color:#ffffff;
   background-image: url("http://www.wallpaper4me.com/images/wallpapers/c_programming_w1.jpeg");
   font-family: Abel;
 }
 
-#backgroundcolor{
+#background {
   background-color: rgb(34, 96, 112);
   background-color: rgba(34, 96, 112, 0.7);
-  width: 62.5em;
+  width: 1000px;
   height: 1000px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
 }
 
-.navbar {
+#header { 
+  border-radius:1px;
+  position:relative;
+  height: 110px;
+  border-radius: 10px;
+}
+
+.titleofwebsite{
+  color: white;
+  font-size:2.5em;
+  text-align: center;
+  margin: 0px;
+}
+
+#navbarbox{
+  background-color: #003333;
+}
+
+
+#navbar /*this is the ul*/{
+  margin-top:0px;
+}
+
+.navbar /*these are the ul list items */ {
   display:inline;
   padding: 9%;
-  
+  font-size: 1.2em;
 }
 
 a {
@@ -32,7 +55,37 @@ a:visited {
   color:#66E0FF;
 }
 
-#boxtitleofwebsite {
+#pageinfobox {
+  height:200px;
+  width: 225px;
+  background-color: #2182A3;
+  margin-left:20px;
+  margin-right: 8px;
+  margin-top: 0px;
+  border-radius: 10px;
+  position: fixed;
+}
+
+#infotext {
+  margin-left:10px;
+}
+
+#contentbox {
+  background-color: #2182A3;
+  height:100px;
+  width: 700px;
+  float: right;
+  margin-right: 25px;
+  margin-left: 8px;
+  border-radius: 10px;
+}
+
+#content {
+  margin-left:10px;
+}
+
+
+/*#boxtitleofwebsite {
   background-color: #2182A3;
   height:45px;
   position: relative;
@@ -46,6 +99,6 @@ a:visited {
   text-align: center;
 }
 
-/*.navbar {
+.navbar {
   background-color:#003333;
 }*/
