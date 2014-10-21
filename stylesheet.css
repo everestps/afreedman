@@ -1,6 +1,7 @@
 body {
   background-image: url("http://www.wallpaper4me.com/images/wallpapers/c_programming_w1.jpeg");
   font-family: Abel;
+  color: white;
 }
 
 #background {
@@ -22,6 +23,7 @@ body {
 
 .titleofwebsite{
   color: white;
+  font-family: Sarpanch;
   font-size:2.5em;
   text-align: center;
   margin: 0px;
@@ -66,13 +68,12 @@ a:visited {
   position: fixed;
 }
 
-#infotext {
+.infotext {
   margin-left:10px;
 }
 
 #contentbox {
   background-color: #2182A3;
-  height:100px;
   width: 700px;
   float: right;
   margin-right: 25px;
@@ -80,10 +81,21 @@ a:visited {
   border-radius: 10px;
 }
 
-#content {
+.content {
   margin-left:10px;
 }
 
+#welcomeeverestpicture {
+  margin-left: auto;
+  margin-right: auto;
+  height:170px;
+  width:150px;
+  display: block;
+}
+
+#contenttitle {
+  font-family: Sarpanch;
+}
 
 /*#boxtitleofwebsite {
   background-color: #2182A3;
