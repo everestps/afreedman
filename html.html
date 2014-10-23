@@ -5,17 +5,20 @@
            <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
            <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'/>
            <link href='http://fonts.googleapis.com/css?family=Sarpanch:400,700' rel='stylesheet' type='text/css'>
+           <link href='http://fonts.googleapis.com/css?family=Orbitron:400,700' rel='stylesheet' type='text/css'>
         </head>
         <body>
             <div id="background">
                 <div id="header">
-                  <p class="titleofwebsite"><strong>Computer Science Expedition:</strong></p> <p class="titleofwebsite"><strong>A Guide to Computer Programming</strong></p>   
+                  <div id="titleofwebsite">
+                    <p class="titleofwebsite"><strong>Computer Science Expedition:</strong></p> <p class="titleofwebsite"><strong>A Guide to Computer Programming</strong></p>   
+                  </div>
                 </div>
                 <div id="navbarbox">
                   <ul id=navbar>
                     <li class="navbar"><a href="index.html">Home</a></li>
                     <li class="navbar"><a href="about.html">About Me</a></li>
-                    <li class="navbar"><a href="html.html">HTML</a></li>
+                    <li class="navbar"><a href="html.html" id="currenttab">HTML</a></li>
                     <li class="navbar"><a href="hardware.html">Hardware</a></li>
                   </ul>
                 </div>
@@ -23,7 +26,13 @@
                   <p class="infotext">Words</p>
                 </div>
                 <div id="contentbox">
-                  <p class="content"> This is where the content will go</p>
+                  <p class="content"> HTML or "Hypertext Markup Language" as it is more formally known, is a programming language specific to web pages. Everything you see on this webiste is a combination of HTML and CSS (we'll get to CSS later). </p>
+                  <p class="content"> HTML looks like this:</p>
+                  <pre><code>&lt;!DOCTYPE html&gt;</code>
+                  <code>&lt;html&gt;</code>
+                  <code>&lt;head&gt;</code>
+                  <code>&lt;title&gt;Everest Computer Science Expedition: A Guide to Computer Programming&lt;/title&gt;</code>
+                  </pre>
                 </div>
             </div>    
         </body>

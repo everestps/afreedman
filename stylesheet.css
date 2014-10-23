@@ -23,10 +23,16 @@ body {
 
 .titleofwebsite{
   color: white;
-  font-family: Sarpanch;
-  font-size:2.5em;
+  font-family: Orbitron;
+  font-size: 35px;
   text-align: center;
   margin: 0px;
+  vertical-align: central;
+}
+
+#titleofwebsite {
+  top:20px;
+  position:relative;
 }
 
 #navbarbox{
@@ -40,21 +46,26 @@ body {
 
 .navbar /*these are the ul list items */ {
   display:inline;
-  padding: 9%;
-  font-size: 1.2em;
+  padding: 8.5%;
+  font-size: 17px;
 }
 
 a {
-  color:#66E0FF;
+  color:#ff9c00;
   text-decoration:none;
 }
 
 a:hover {
-  color:#66E0FF;
+  /*color:#66E0FF;*/
+  color: #ff9c00;
 }
 
 a:visited {
-  color:#66E0FF;
+  color:#ff9c00;
+}
+
+#currenttab{
+  color: #e5b700;
 }
 
 #pageinfobox {
@@ -82,7 +93,7 @@ a:visited {
 }
 
 .content {
-  margin-left:10px;
+  margin:20px;
 }
 
 #welcomeeverestpicture {
@@ -93,10 +104,25 @@ a:visited {
   display: block;
 }
 
-#contenttitle {
-  font-family: Sarpanch;
+#contenttitlebackground {
+  background-color: #e5b700;
+  margin-top: 15px;
+  height: 40px;
 }
 
+#contenttitle {
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 25px;
+  top:10px;
+  position: relative;
+}
+
+pre {
+  background-color:#141a14;
+  color:gray;
+  margin:10px;
+}
 /*#boxtitleofwebsite {
   background-color: #2182A3;
   height:45px;
